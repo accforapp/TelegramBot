@@ -4,7 +4,7 @@ import json
 import data_load
 
 
-bot = telebot.TeleBot()
+bot = telebot.TeleBot('1277099406:AAErhXQK6Djcwu6D-xKFxyYAM8ouZU5r7uQ')
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
